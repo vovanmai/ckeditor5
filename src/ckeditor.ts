@@ -205,6 +205,9 @@ class Editor extends ClassicEditor {
 			]
 		},
 		language: 'en',
+		link : {
+			addTargetToExternalLinks: true,
+		},
 		image: {
 			toolbar: [
 				'imageTextAlternative',
